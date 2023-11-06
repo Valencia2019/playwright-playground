@@ -17,6 +17,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Ensure browsers are installed
-      run: pip install playwright
+      run: |
+        pip install pytest-playwright 
+        playwright install
     - name: Run your tests
       run: pytest
