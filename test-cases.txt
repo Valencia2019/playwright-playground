@@ -1,7 +1,0 @@
-Sauce Demo UI tests
-1. Login to website.
-2. Check out with an item.
-3. Window shop.
-4. Log out of website
-API tests
-Accessibility tests
