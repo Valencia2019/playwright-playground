@@ -4,8 +4,9 @@ from playwright.sync_api import expect, sync_playwright
 # define the url that will be used for tests in this spec file
 url = "https://www.saucedemo.com"
 
+
 def test_log_in():
-    with sync_playwright() as p:
+   with sync_playwright() as p:
         browser = p.chromium.launch()
         context = browser.new_context()
         page = context.new_page()
