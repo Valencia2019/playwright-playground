@@ -26,8 +26,7 @@ def test_log_in(login_name, before_each_after_each):
    username.fill(login_name)
    password.fill(pw)
    loginBtn.click()
-   page.wait_for_url("**/inventory.html")
-   expect(page).to_have_url(re.compile('.*/inventory.html'))
+   expect(page, "should be logged in").to_have_url(re.compile('.*/inventory.html'))
    return
 
 # Verify locked out user can not log in

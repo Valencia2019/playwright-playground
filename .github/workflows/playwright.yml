@@ -19,6 +19,6 @@ jobs:
     - name: Ensure browsers are installed
       run: |
         pip install pytest-playwright 
-        playwright install
+        playwright install --with-deps
     - name: Run your tests
       run: pytest

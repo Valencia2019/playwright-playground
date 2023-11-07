@@ -154,3 +154,6 @@ cython_debug/
 #test case drafts
 test-cases.txt
 test_cases
+
+#Locally run accessibility reports
+a11y_reports
