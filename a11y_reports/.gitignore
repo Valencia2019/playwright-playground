@@ -1,0 +1,3 @@
+# Ignore locally run accessibility reports, but keep the folder so a11y tests can run.
+*
+!.gitignore
